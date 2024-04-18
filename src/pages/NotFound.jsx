@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const NotFound = () => {
   return (
-    <Container maxWidth="lg" sx={{ height: "100vh" }}>
+    <Container maxWidth="lg" sx={{ height: "100dvh" }}>
       <Stack
         alignItems={"center"}
         spacing={"2rem"}

@@ -114,7 +114,7 @@ const AdminLayout = ({ children }) => {
   if (!isAdmin) return <Navigate to="/admin" />;
 
   return (
-    <Grid container minHeight={"100vh"}>
+    <Grid container minHeight={"100dvh"}>
       <Box
         sx={{
           display: { xs: "block", md: "none" },

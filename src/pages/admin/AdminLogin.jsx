@@ -1,11 +1,5 @@
 import { useInputValidation } from "6pp";
-import {
-  Button,
-  Container,
-  Paper,
-  TextField,
-  Typography
-} from "@mui/material";
+import { Button, Container, Paper, TextField, Typography } from "@mui/material";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
@@ -40,7 +34,7 @@ const AdminLogin = () => {
         component={"main"}
         maxWidth="xs"
         sx={{
-          height: "100vh",
+          height: "100dvh",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",

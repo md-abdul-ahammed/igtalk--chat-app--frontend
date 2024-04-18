@@ -266,7 +266,7 @@ const Groups = () => {
   return myGroups.isLoading ? (
     <LayoutLoader />
   ) : (
-    <Grid container height={"100vh"}>
+    <Grid container height={"100dvh"}>
       <Grid
         item
         sx={{
@@ -386,7 +386,7 @@ const GroupsList = ({ w = "100%", myGroups = [], chatId }) => (
     width={w}
     sx={{
       backgroundImage: bgGradient,
-      height: "100vh",
+      height: "100dvh",
       overflow: "auto",
     }}
   >

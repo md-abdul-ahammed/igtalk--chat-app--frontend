@@ -7,7 +7,7 @@ const Table = ({ rows, columns, heading, rowHeight = 52 }) => {
   return (
     <Container
       sx={{
-        height: "100vh",
+        height: "100dvh",
       }}
     >
       <Paper
