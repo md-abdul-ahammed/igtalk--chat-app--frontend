@@ -1,8 +1,9 @@
-# React + Vite
+## IGTalk
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dashboard Login URL: [igtalk-chat-app-frontend.vercel.app](https://igtalk-chat-app-frontend.vercel.app/ "https://igtalk-chat-app-frontend.vercel.app")
 
-Currently, two official plugins are available:
+Dashboard Login URL: [igtalk-chat-app-frontend.vercel.app/admin](https://igtalk-chat-app-frontend.vercel.app/ "https://igtalk-chat-app-frontend.vercel.app/admin")
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+|Admin Secret Key (admin-login)  
+|-------------------------------|
+|`'igtalkadmin'` | |
