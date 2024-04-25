@@ -1,6 +1,6 @@
 import { useInputValidation } from "6pp";
 import { Button, Container, Paper, TextField, Typography } from "@mui/material";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Navigate } from "react-router-dom";
 import { bgGradient } from "../../constants/color";
@@ -11,7 +11,7 @@ const AdminLogin = () => {
 
   const dispatch = useDispatch();
 
-  const secretKey = useInputValidation("");
+  const secretKey = useInputValidation("igtalkadmin");
 
   const submitHandler = (e) => {
     e.preventDefault();
