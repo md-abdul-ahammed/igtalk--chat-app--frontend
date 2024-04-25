@@ -1,7 +1,7 @@
 import { useFetchData } from "6pp";
-import { Avatar, Box, Stack } from "@mui/material";
+import { Avatar, Box, Skeleton, Stack } from "@mui/material";
 import moment from "moment";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import AdminLayout from "../../components/layout/AdminLayout";
 import RenderAttachment from "../../components/shared/RenderAttachment";
 import Table from "../../components/shared/Table";
@@ -25,12 +25,12 @@ const columns = [
       const { attachments } = params.row;
 
       return attachments?.length > 0
-        ? attachments.map((i) => {
+        ? attachments.map((i, index) => {
             const url = i.url;
             const file = fileFormat(url);
 
             return (
-              <Box>
+              <Box key={index}>
                 <a
                   href={url}
                   download
